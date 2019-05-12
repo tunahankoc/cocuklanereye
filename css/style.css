@@ -98,9 +98,89 @@
 
 .icon-bg {
 	background-color: #f6f6f6;
+	position: relative;
 }
 
 .icon-border {
 	border-right: 5px solid #fff;
 	border-radius: 100px;
+}
+
+.text-red {
+	color: #cf475f;
+	font-weight: bold!important;
+}
+
+.text-grey {
+	color: #959595;
+	text-decoration: line-through;
+}
+
+ .price-margin {
+ 	margin-top: 6px;
+ }
+
+ .tabs {
+ 	list-style: none outside none!important;
+ }
+
+ .tabs li {
+ 	position: relative;
+ 	display: inline-block;
+ 	border: 1px solid #000;
+ }
+
+ .tabs-lastest-ticket {
+	padding: 10px;
+ }
+
+ .tabs-soon {
+	padding: 10px;
+	margin-left: 
+ }
+
+ .sidebar-active {
+    background-color: #fcfcfc;
+    color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2% 3%!important;
+}
+
+.sidebar-deactive {
+    background-color: #f4f4f5;
+    color: #aaaaaa;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2% 3%!important;
+    border-bottom: 1px solid #eaeaec;
+    border-left: 1px solid #eaeaec;
+}
+
+.sidebar-content {
+    background-color: #fcfcfc;
+    color: #666666;
+}
+
+.sidebar-title {
+    color: #cf475f;
+    font-weight: bold;
+    font-size: 100%!important;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.news-controls {
+    background-color: #fcfcfc;
+    margin-right: 33px;
 }
